@@ -1,4 +1,7 @@
-package com.solvd.fastestalgo.binary;
+package com.solvd.fastestalgo.util;
+
+import com.solvd.fastestalgo.binary.Graph;
+import com.solvd.fastestalgo.binary.Vertex;
 
 import java.util.*;
 

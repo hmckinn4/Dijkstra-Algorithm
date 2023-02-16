@@ -1,6 +1,6 @@
 package com.solvd.fastestalgo;
 
-import com.solvd.fastestalgo.binary.DijkstraAlgorithm;
+import com.solvd.fastestalgo.util.DijkstraAlgorithm;
 import com.solvd.fastestalgo.binary.Graph;
 import com.solvd.fastestalgo.binary.Vertex;
 
@@ -38,7 +38,7 @@ public class Main {
         graph.addEdge(townE, townF, 9);
         graph.addEdge(townF, townG, 11);
 
-        // Call shortest path algorithm on graph
+        // call shortest path algorithm on graph
 
         Scanner scanner = new Scanner(System.in);
 
